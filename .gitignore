@@ -1,3 +1,67 @@
-/bin/
-/bin/
-/target/
+
+#  MAVEN BUILD FILES
+target/
+pom.properties
+dependency-reduced-pom.xml
+
+#  TESTNG OUTPUT FILES
+test-output/
+test-output/**
+
+# TestNG generated reports
+testng-results.xml
+testng-failed.xml
+testng-failed.xml
+*testng*.xml
+emailable-report.html
+index.html
+
+#  BROWSER DRIVER EXECUTABLES
+*.exe
+*.dmg
+*.zip
+*.msi
+chromedriver*
+geckodriver*
+msedgedriver*
+
+#  LOGS & SCREENSHOTS
+*.log
+*.png
+*.jpg
+*.jpeg
+screenshots/
+failure-screenshots/
+logs/
+
+#  ECLIPSE / IDE FILES
+.classpath
+.project
+.settings/
+bin/
+.idea/
+*.iml
+
+#  OS-GENERATED FILES
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+#  JAVA BUILD FILES
+*.class
+*.jar
+*.war
+*.ear
+
+#  TEMP FILES
+*.tmp
+*.swp
+*.swo
+
+#  REPORTS
+reports/
+allure-results/
+allure-report/
+surefire-reports/
+
