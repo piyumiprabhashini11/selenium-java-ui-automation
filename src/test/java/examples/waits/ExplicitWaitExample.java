@@ -1,4 +1,4 @@
-package waits;
+package examples.waits;
 
 import java.time.Duration;
 import org.openqa.selenium.By;
